@@ -1,0 +1,121 @@
+//top slide
+.top-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.top-title-box {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 0.3rem;
+}
+
+.top-logo-img {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  margin: auto 0;
+}
+
+.top-animation {
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+//voice wave
+.voice-wave-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.voice-wave-box {
+  height: 60%;
+}
+
+//introduction
+.introduction-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.introduction-reason-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.introduction-reason-text {
+  font-size: 3rem;
+  font-weight: 600;
+  span {
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--color-main);
+  }
+}
+
+.introduction-arrow {
+  font-size: 4rem;
+}
+
+//ulupoli
+.ulupoli-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ulupoli-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ulupoli-logo-img {
+  width: 22rem;
+  height: auto;
+}
+
+
+//end
+.end-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.end-logo-img {
+  width: 8rem;
+  height: auto;
+  position: absolute;
+  right: 2%;
+  bottom: 3%;
+}
