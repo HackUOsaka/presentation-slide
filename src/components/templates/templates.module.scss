@@ -6,6 +6,10 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  @media (min-aspect-ratio: 16 / 9) {
+    width: auto;
+    height: 100vh;
+  }
 }
 
 .bg-img {
