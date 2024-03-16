@@ -13,7 +13,7 @@ export const TopSlide = () => {
       <div className={styles['top-container']}>
         <Image src={logoImage} alt='logo' width={800} className={styles['top-logo-img']} />
         <div className={styles['top-title-box']}>
-          <TopTitle text='uluPoli' />
+          <TopTitle text='ulupoli' />
           <SectionTitle text='限界スペース ~助けてください~' />
         </div>
         <div className={styles['top-animation']}>

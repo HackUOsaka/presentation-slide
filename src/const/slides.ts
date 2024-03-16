@@ -20,7 +20,7 @@ export const slides = [
   ThinkingSlide,
   ThinkingDeviceSlide,
   AppealPointsSlide,
-  TargetsSlide,
+  // TargetsSlide,
   TechSlide,
   ProspectSlide,
   VoiceWaveSlide,

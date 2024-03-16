@@ -16,9 +16,25 @@ export const SectionTitle = ({ text } : { text: string }) => {
   )
 }
 
+export const SectionTopTitle = ({ text } : { text: string }) => {
+  return (
+    <p className={styles['section-top-title']}>
+      {text}
+    </p>
+  )
+}
+
 export const SlideTitle = ({ text } : { text: string }) => {
   return (
     <p className={styles['slide-title']}>
+      {text}
+    </p>
+  )
+}
+
+export const DescriptionText = ({ text } : { text: string }) => {
+  return (
+    <p className={styles['description']}>
       {text}
     </p>
   )

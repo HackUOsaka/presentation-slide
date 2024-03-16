@@ -4,7 +4,7 @@ import { TitleTemplate } from "../templates/TitleSlideTemplate";
 
 export const TargetsSlide = () => {
   return (
-    <TitleTemplate title='TARGET'>
+    <TitleTemplate title='ターゲット'>
       ターゲット
     </TitleTemplate>
   )
