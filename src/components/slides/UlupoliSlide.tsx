@@ -12,7 +12,7 @@ export const UlupoliSlide = () => {
       <div className={styles['ulupoli-container']}>
         <div className={styles['ulupoli-title-container']}>
           <Image src={logoImage} alt='logo' width={500} className={styles['ulupoli-logo-img']} />
-          <TopTitle text='UluPoli' />
+          <TopTitle text='ulupoli' />
         </div>
       </div>
     </MainSlideTemplate>

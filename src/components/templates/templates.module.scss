@@ -42,6 +42,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 1rem;
+  position: relative;
 }
 
 .title-box {
@@ -66,4 +67,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.title-logo-img {
+  width: 5%;
+  height: auto;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
 }

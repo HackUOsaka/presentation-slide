@@ -100,6 +100,116 @@
   height: auto;
 }
 
+//functions
+.functions-container {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+//appeal points
+.thinking-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-top: 12%;
+}
+
+.thinking-animation-container {
+  max-width: 25rem;
+  scale: 2;
+}
+
+.thinking-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: -4rem;
+  padding-left: 1.5rem;
+}
+
+.thinking-index {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+//appeal points
+.appeal-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.appeal-index {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.appeal-arrow {
+  padding-top: 1rem;
+  font-size: 4rem;
+}
+
+.appeal-point-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+//prospect
+.prospect-container {
+  width: 80%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 3%;
+}
+
+//hard
+.hard-img-box {
+  width: 26rem;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+  border-radius: 2rem;
+  background-color: var(--color-sub);
+}
+
+.hard-img {
+  width: auto;
+  height: 30rem;
+}
+
+//tech
+.tech-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
 
 //end
 .end-container {
